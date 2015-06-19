@@ -17,5 +17,6 @@ setup(
     url='http://projects.skurfer.com/posts/2011/ldif_pygments/',
     packages=find_packages(),
     install_requires=['Pygments'],
+    py_modules=['ldif_lexer'],
     entry_points={'pygments.lexers': 'ldif=ldif_lexer:LdifLexer'}
 )
